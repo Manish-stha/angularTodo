@@ -1,0 +1,13 @@
+<small *ngIf='flag'>{{invalidMsg}}</small>
+
+<div class="container">
+  <span class="holder">
+    <!--two way data binding-->
+     Username:<input type="text" placeholder="Enter UserName" name="username" [(ngModel)]="username" />
+  </span>
+  <span class="holder">
+      Password:<input type="password" placeholder="Enter Password" name="password" [(ngModel)]="password" />
+   </span>
+
+   <button (click)=handleLogin()>Login</button>
+</div>

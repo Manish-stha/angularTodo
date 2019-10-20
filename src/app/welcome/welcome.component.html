@@ -1,0 +1,11 @@
+<p>
+  welcome {{name}}
+
+  Manage you todos <a routerLink="/todos"><strong>HERE</strong></a>
+</p>
+
+<div>
+  click to get message
+  <button (click)="getPathVariableData()">Get Welcome Message</button>
+  <span *ngIf="resMessage">{{resMessage}}</span>
+</div>

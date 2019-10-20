@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.holder{
+    padding:10px;
+}
+
+.holder-btn{
+    margin-left: 5px;
+}
